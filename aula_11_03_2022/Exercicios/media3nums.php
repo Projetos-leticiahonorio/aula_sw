@@ -7,7 +7,8 @@
     <title>Resultado</title>
     <style>
         p{
-            color: red;
+            color: #D8BFD8;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
     </style>
 </head>
@@ -18,9 +19,9 @@
     $num2 = $_REQUEST['num2'];
     $num2 = $_REQUEST['num3'];
 
-    $soma = $num1 + $num2;
+    $soma = ($num1 + $num2 + $num3) /3;
 
-    echo "<p>A soma é: $soma</p>";
+    echo "<p>A Média é $soma</p>";
     //echo "A soma é: ".$soma;
     ?>
 </body>
