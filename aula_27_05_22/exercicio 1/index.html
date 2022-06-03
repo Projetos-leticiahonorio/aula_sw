@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exercicio 01</title>
+</head>
+<body class="fundo">
+    <div class="tudo">
+    <form action="processa.php" method="POST">
+        <p class="texto">Selecione o número 1 para converter a temperatura de Celsius para Farenheit ou o número 2 para converter a temperatura de Farenheit para Celsius:
+            <select name="escolha">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </p> 
+        <br>
+        <p class="texto2">Informe o valor que você deseja converter:</p>
+        <input type="number" name="num1">
+        <br>
+        <input class="botao" type="submit" value="Enviar">
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.fundo{
+    background-color: rgb(181, 130, 228);
+}
+
+.tudo{
+    text-align: center;
+}
+
+.texto{
+    margin-top: 17%;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto2{
+    margin-top: 20px;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botao{
+    background-color: rgb(162, 101, 219);
+    color: black;
+    font-size: 16px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    margin-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.botao:hover{
+    background-color: rgb(157, 105, 192);
+    color: black;
+}
